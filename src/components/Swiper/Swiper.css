@@ -1,0 +1,36 @@
+/* Swiper.css (or your custom CSS file) */
+.stars {
+    color: orange; 
+}
+
+/* Swiper.css (or your custom CSS file) */
+.shop-now-button {
+    background-color: green;
+     color: white;
+     padding: 10px 20px; 
+     border-radius: 5px; 
+     text-decoration: none; 
+}
+.box {
+    border: 1px solid #ccc; /* Add border for the box */
+    padding: 20px; /* Add padding to the content inside the box */
+    margin: 10px; /* Add margin to separate each box */
+    text-align: center; /* Center the content inside the box */
+    background-color: #f9f9f9; /* Add a background color to the box */
+}
+.product-image {
+    height: 90px; /* Set a fixed height for the product images */
+}
+@media only screen and (max-width: 768px) {
+    .product-image {
+        height: auto; /* Allow product images to adjust height */
+        max-width: 100%; /* Ensure images don't overflow their container */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box {
+        padding: 10px; /* Reduce padding for smaller screens */
+        margin: 5px; /* Reduce margin for smaller screens */
+    }
+}

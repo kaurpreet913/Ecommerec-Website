@@ -1,0 +1,22 @@
+.Hero {
+    background-image: url('/public/assets/hero-image-test.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C4142;
+}
+@media only screen and (max-width: 768px) {
+    .Hero {
+      height: 400px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .Hero {
+      height: 100px;
+    }
+  }

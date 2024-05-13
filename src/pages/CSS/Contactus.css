@@ -1,0 +1,111 @@
+.cont {
+    background-image: url('/public/assets/banner-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C4142;
+}
+
+.help-box {
+    background-color: orange;
+    color: #fff;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+}
+
+.contact-item {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px; /* Add space between items */
+}
+
+.contact .fa-envelope-open-text,
+.contact .fa-phone-volume,
+.contact .fa-user-edit {
+    font-size: 50px;
+    color: orange;
+    margin: auto;
+}
+
+.map-section {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px; /* Align items to the left */
+}
+
+.content-container {
+    margin-right: 50px; /* Adjust as needed */
+}
+
+.map-section .meassge-placeholder {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.meassge-placeholder form div {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.meassge-placeholder form div label {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.meassge-placeholder form div label name {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .cont {
+        height: 150px; /* Reduce height for smaller screens */
+    }
+
+    .help-box {
+        max-width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .contact-item {
+        flex: 1 0 100%; /* Take full width on smaller screens */
+    }
+
+    .map-section {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .content-container {
+        margin-right: 20px; /* Adjust margin for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cont {
+        height: 100px; /* Reduce height for even smaller screens */
+    }
+
+    .help-box {
+        max-width: 90%; /* Adjust width for even smaller screens */
+    }
+
+    .contact .fa-envelope-open-text,
+    .contact .fa-phone-volume,
+    .contact .fa-user-edit {
+        font-size: 30px; /* Decrease icon size for smaller screens */
+    }
+}
