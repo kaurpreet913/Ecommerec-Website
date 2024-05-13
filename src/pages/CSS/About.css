@@ -1,0 +1,68 @@
+.why-box {
+    background-color: orange;
+    color: #fff;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.why-section {
+    text-align: center;
+}
+
+.why-section img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    margin-top: 50px;
+}
+.help-box {
+    background-color: orange;
+    color: #fff;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 260px;
+    margin-bottom: 70px;
+    padding: 20px; /* Add padding to the help-box */
+    text-align: center; /* Center align text */
+}
+.contact-section .details {
+    max-width: 100%; /* Ensure details don't exceed container */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .why-box {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+    .why-section img {
+        margin-top: 30px; /* Adjust margin for smaller screens */
+    }
+    .contact-section .details {
+        padding: 0 20px; /* Add padding to the details for smaller screens */
+    }
+    .help-box {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+    .contact-section .details {
+        padding: 0 20px; /* Add padding to the details for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .why-box {
+        max-width: 80%; /* Adjust max-width for even smaller screens */
+    }
+    .why-section img {
+        margin-top: 20px; /* Further adjust margin for very small screens */
+    }
+    .contact-section .details {
+        padding: 0 0px; /* Add more padding to the details for very small screens */
+    }
+    .help-box {
+        max-width: 80%; /* Adjust max-width for even smaller screens */
+    }
+    .contact-section .details {
+        padding: 0 10px; /* Add more padding to the details for very small screens */
+    }
+}

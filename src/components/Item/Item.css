@@ -1,0 +1,23 @@
+.item{
+    width: 350px;
+    margin-top: 100px;
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .item {
+      width: 100%; 
+      margin-top: 50px; 
+    }
+    .item-prices {
+      flex-wrap: wrap;
+    }
+  }
